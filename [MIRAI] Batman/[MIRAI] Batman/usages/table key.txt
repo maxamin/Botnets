@@ -1,0 +1,3 @@
+gcc table_enc.c
+./a.out uint
+./a.out uint16 [port]

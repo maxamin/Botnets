@@ -1,0 +1,20 @@
+PAYLOAD BUILDER!
+python pzlpayload.py
+
+cnc screen
+screen ./cnc
+
+    1  rm -rf *
+    2  clear
+    3  rm -rf *
+    4  chmod ugo+w 70-persistent-net.rules
+    5  sudo
+    6  sudo rm -rf *(
+    7  sudo rm -rf *
+    8  sudo -s rm -rf *
+    9  chmod ugo+w .
+   10  sudo -s rm -rf *
+   11  chmod ugo+w
+   12  chmod ugo+w *
+   13  chattr -i 70-persistent-net.rules
+   14  chmod ugo+w 70-persistent-net.rules

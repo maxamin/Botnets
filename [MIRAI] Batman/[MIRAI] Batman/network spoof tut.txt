@@ -1,0 +1,17 @@
+get ur domain and point the domain to ur IP!
+paste this into the server u want to proxy
+-------------------------------------------
+sysctl -w net.ipv4.ip_forward=1
+iptables -A FORWARD -i eth0 -j ACCEPT
+iptables -A FORWARD -o eth0 -j ACCEPT
+iptables -I FORWARD -i eth0 -p tcp --dport NETPORT -j ACCEPT
+iptables -t nat -A PREROUTING -p tcp --dport NETPORT -j DNAT --to-destination NETIP:NETPORT
+iptables -t nat -A POSTROUTING -j MASQUERADE
+-------------------------------------------
+use domain
+-------------------------------------------
+point the domain [cloudflare] to the proxy IP
+then update the reverse dns for the IP!
+-------------------------------------------
+
+tut made by blazing and iotnet

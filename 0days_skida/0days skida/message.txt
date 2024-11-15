@@ -1,0 +1,23 @@
+This video is about some exploit bullshit thats been going around and also a 0day i was scammed for
+
+[?] INFO ABOUT EXPLOITS [?]
+
+#oem/oemshell# - fake 0day
+-This exploit is supposed to effect tvt oem but, was resolved march of 2018
+-only older tvt oem are effected but this exploit trys to infect anything with the port open
+-it also doesn't infect every device it displays it just says infected if they page has 200 anywhere in it
+-which would include if the site displayed an error that has 200 in it EX. nfiuhwqig200fiuhs87
+-the method that is trys to inject commands is also resolved so you will not be able to infect devices
+
+mmnmmnmmnmmnmmnmmnmmnmmnmmnmmnmmnmmnmmnmmnmmnmmnmmnmmnmmnmmnmmnmmnmmnmmnmmnmmnmmnmmnmmnmmnmmnmmnmmnmmnmmnmmnmmnmm
+nnmnnmnnmnnmnnmnnmnnmnnmnnmnnmnnmnnmnnmnnmnnmnnmnnmnnmnnmnnmnnmnnmnnmnnmnnmnnmnnmnnmnnmnnmnnmnnmnnmnnmnnmnnmnnmnn
+
+#ipcam#
+-This exploit uses a pretty well known command line injection method
+-getting the devices in bulk is next to impossible without ranges which i never got
+-cgi-bin/ddns_enc.cgi is the file it abuses to give you access
+-i was givin this one because oem wasn't 0day and it's ass 
+
+
+
+from - (bleaching)
